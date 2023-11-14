@@ -24,7 +24,7 @@ body {
         display: flex;
     }
     .logo img{
-        width: 130px;
+        max-width: 130px;
     }
     
     .menu ul{
@@ -139,4 +139,18 @@ footer{
 }
 .copyright img{
     width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .pagination {
+        flex-direction: column;
+    }
 }
