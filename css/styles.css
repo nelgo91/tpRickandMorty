@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap');
+    /* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/rick-and-morty-33910.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    /* Header */
+    .navbar{
+        width: 100%;
+        color: white;
+        background-color:black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo a{
+        display: flex;
+    }
+    .logo img{
+        width: 130px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+        /* Menu */
+    #raiz{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        font-size: 13px;
+}
+
+    .card{
+        width: 277px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        text-align: start;
+        background-color:rgba(255,255,255,0.060);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 15px;
+        overflow: hidden;
+        backdrop-filter: blur(1rem);
+        box-shadow: 9px 9px 31px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 9px 9px 31px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 9px 9px 31px 0px rgba(0,0,0,0.35);
+    }
+    
+    .card:hover {
+        transform: translateY(-15px);
+        transition: 1s ease;
+        box-shadow: 11px 9px 77px 0px rgba(0,0,0,0.8);
+        -webkit-box-shadow: 11px 9px 77px 0px rgba(0,0,0,0.8);
+        -moz-box-shadow: 11px 9px 77px 0px rgba(0,0,0,0.8);
+    }
+    
+    .card-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card-image:hover{
+        filter: grayscale(90%);
+    }
+
+    .card-image:hover img{
+        transform: scale(1.3);
+        transition-duration: 0.5s;
+
+    }
+
+    .card-info p{
+    padding: 0px 95px;
+    }
+
+    .card-info a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .totales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .paginacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        margin: 20px;
+    }
+    
+    button{
+        cursor: pointer;
+        background-color:rgba(255,255,255,0.060);
+        backdrop-filter: blur(1rem);
+    }
+    
+    button img{
+        width: 35px;
+    }
+
+        /*Footer*/
+footer{
+    width: 100%;
+    background-color: black;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.copyright img{
+    width: 80px;
+}

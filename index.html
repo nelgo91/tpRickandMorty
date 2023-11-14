@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/rick-and-morty-30998.png">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href=""><img src="img/rick-and-morty-31015.png" alt="logo"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+            <li id="todos">Todos</li>
+            <li id="mujeres">Mujer</li>
+            <li id="hombres">Hombre</li>
+            <li id="sinGenero">Sin genero</li>
+            <li id="noSeSabe">No se sabe</li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <main>
+
+    <div class="totales">
+        <p>Total de personajes <span id="total-personajes"></span></p>
+        <div id="raiz"></div>
+        
+        <div class="container-paginador">
+            <p>Pagina actual: <span id="pagina-actual"></span></p>
+            <p>Total de páginas: <span id="total-paginas"></span></p>
+
+            <div class="pagination">
+                <button id="first-page"><img src="./img/doublearrow left.png" alt=""></button>
+                <button id="prev-page"><img src="./img/arrow left.png" alt=""></button>
+                <button id="next-page"><img src="./img/arrow right.png" alt=""></button>
+                <button id="last-page"><img src="./img/doublearrow right.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <img src="./img/rick-and-morty-30969.png" alt="">
+            <p>© Todos los derechos reservados :: Nelson M. Godoy :: Argentina 2023 </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
