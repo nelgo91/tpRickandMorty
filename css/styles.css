@@ -144,6 +144,7 @@ footer{
 @media only screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
+        text-align: center;
     }
 
     .menu ul {
