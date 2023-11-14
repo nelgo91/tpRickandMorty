@@ -134,8 +134,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 printData(arrHombres);
 });
-//Primero: Elemento html
-//.addEventListener("evento", ()=>{})
+
 sinGenero.addEventListener("click", () => {
 const arr = data.results;
 const arrSinGenero = [];
@@ -152,7 +151,7 @@ noSeSabe.addEventListener("click", () => {
 const arr = data.results;
 const arrNoSeSabe = [];
 
-for (let i = 0; i > arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     if (arr[i].gender === "unknown") {
     arrNoSeSabe.push(arr[i]);
     }
