@@ -171,17 +171,6 @@ footer{
         gap: 10px;
     }
 
-    .card {
-        width: 100%; /* O ajusta según sea necesario */
-        height: auto;
-        margin-bottom: 10px;
-        padding: 10px;
-    }
-
-    .card-info p {
-        padding: 0; /* Ajusta según sea necesario */
-    }
-
     .pagination {
         flex-direction: row;
         align-items: center;
