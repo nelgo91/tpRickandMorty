@@ -56,7 +56,7 @@ arr.forEach((personaje) => {
                 <p>Locacion: ${personaje.location.name}</p>
             </div>
             <div class="card-info">
-            <p class="ver-mas" <br>><a href="https://rickandmortyapi.com/api/character/${personaje.id}" target="_blank">Ver más</a></p>
+            <p class="ver-mas" <br>><a href="https://rickandmortyapi.com/api/character/${personaje.id}" target="_blank">Ver más...</a></p>
             </div>
         </div>
     </div>
