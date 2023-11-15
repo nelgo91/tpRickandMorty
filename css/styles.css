@@ -114,13 +114,12 @@ body {
         color: white;
     }
 
-    .paginacion{
+    .pagination{
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding: 10px;
         gap: 10px;
-        margin: 20px;
     }
     
     button{
